@@ -1,6 +1,6 @@
 # Upstream Sync
 
-English | [简体中文](https://github.com/lobehub/lobe-chat/wiki/Upstream-Sync.zh-CN)
+English | [简体中文](https://github.com/sej95/chathub/wiki/Upstream-Sync.zh-CN)
 
 ## `A` Vercel / Zeabur Deployment
 
@@ -23,22 +23,22 @@ Once you have forked the project, due to Github restrictions, you will need to m
 
 ## `B` Docker Deployment
 
-Upgrading the Docker deployment version is very simple, just redeploy the latest image of LobeChat. Here are the instructions to perform these steps:
+Upgrading the Docker deployment version is very simple, just redeploy the latest image of ChatHub. Here are the instructions to perform these steps:
 
-1. Stop and delete the currently running LobeChat container (assuming the name of the LobeChat container is `lobe-chat`):
+1. Stop and delete the currently running ChatHub container (assuming the name of the ChatHub container is `lobe-chat`):
 
 ```fish
 docker stop lobe-chat
 docker rm lobe-chat
 ```
 
-2. Pull the latest Docker image of LobeChat:
+2. Pull the latest Docker image of ChatHub:
 
 ```fish
 docker pull lobehub/lobe-chat
 ```
 
-3. Redeploy the LobeChat container using the newly pulled image:
+3. Redeploy the ChatHub container using the newly pulled image:
 
 ```fish
 docker run -d -p 3210:3210 \
@@ -55,4 +55,4 @@ Make sure you have sufficient permissions to stop and delete the container befor
 >
 > If I redeploy, will my local chat history be lost?
 >
-> Don't worry, all of LobeChat's chat history is stored in your local browser. Therefore, when you redeploy LobeChat using Docker, your chat history will not be lost.
+> Don't worry, all of ChatHub's chat history is stored in your local browser. Therefore, when you redeploy ChatHub using Docker, your chat history will not be lost.
