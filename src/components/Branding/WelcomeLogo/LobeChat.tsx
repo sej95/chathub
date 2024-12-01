@@ -10,7 +10,7 @@ const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree/LogoSpline'), 
 const WelcomeLogo = memo<{ mobile?: boolean }>(({ mobile }) => {
   return mobile ? (
     <Center height={240} width={240}>
-      <LogoThree size={24} />
+      <LogoThree size={240} />
     </Center>
   ) : (
     <Center
@@ -27,4 +27,4 @@ const WelcomeLogo = memo<{ mobile?: boolean }>(({ mobile }) => {
   );
 });
 
-export default WelcomeLogo;
+export default LogoSpline;
