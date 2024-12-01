@@ -79,7 +79,7 @@ describe('Ld', () => {
       const website = ld.genWebSite();
 
       expect(website['@type']).toBe('WebSite');
-      expect(website.name).toBe('LobeChat');
+      expect(website.name).toBe('ChatHub');
     });
   });
 

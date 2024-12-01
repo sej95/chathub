@@ -120,7 +120,7 @@ export class Meta {
         },
       ],
       locale,
-      siteName: 'LobeChat',
+      siteName: 'ChatHub',
       title,
       type,
       url,
