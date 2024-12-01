@@ -31,7 +31,7 @@ const nextAuthMiddleware = NextAuthEdge.auth((req) => {
   const session = req.auth;
 
   // Check if next-auth throws errors
-  // refs: https://github.com/lobehub/lobe-chat/pull/1323
+  // refs: https://github.com/sej95/chathub/pull/1323
   const isLoggedIn = !!session?.expires;
 
   // Remove & amend OAuth authorized header
@@ -58,7 +58,7 @@ export default authEnv.NEXT_PUBLIC_ENABLE_CLERK_AUTH
         if (isProtectedRoute(req)) auth().protect();
       },
       {
-        // https://github.com/lobehub/lobe-chat/pull/3084
+        // https://github.com/sej95/chathub/pull/3084
         clockSkewInMs: 60 * 60 * 1000,
         signInUrl: '/login',
         signUpUrl: '/signup',
