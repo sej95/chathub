@@ -31,8 +31,8 @@ export const generateMetadata = async ({ params, searchParams }: Props) => {
   return {
     authors: [
       { name: author, url: homepage },
-      { name: 'LobeHub', url: 'https://github.com/lobehub' },
-      { name: 'LobeChat', url: 'https://github.com/lobehub/lobe-chat' },
+      { name: 'sej95', url: 'https://github.com/sej95' },
+      { name: 'ChatHub', url: 'https://github.com/sej95/chathub' },
     ],
     keywords: meta.tags,
     webpage: {
