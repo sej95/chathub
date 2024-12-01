@@ -52,7 +52,7 @@ const Follow = memo(() => {
         <ActionIcon
           className={styles.icon}
           icon={SiMedium as any}
-          title={t('follow', { name: 'Medium' })}
+          title={t('follow', { name: 'Discord' })}
         />
       </Link>
     </Flexbox>
