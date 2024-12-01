@@ -63,8 +63,8 @@ describe('UserAvatar', () => {
       });
 
       render(<UserAvatar />);
-      expect(screen.getByAltText('LobeChat')).toBeInTheDocument();
-      expect(screen.getByAltText('LobeChat')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
+      expect(screen.getByAltText('ChatHub')).toBeInTheDocument();
+      expect(screen.getByAltText('ChatHub')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
     });
   });
 
@@ -76,8 +76,8 @@ describe('UserAvatar', () => {
       });
 
       render(<UserAvatar />);
-      expect(screen.getByAltText('LobeChat')).toBeInTheDocument();
-      expect(screen.getByAltText('LobeChat')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
+      expect(screen.getByAltText('ChatHub')).toBeInTheDocument();
+      expect(screen.getByAltText('ChatHub')).toHaveAttribute('src', DEFAULT_USER_AVATAR_URL);
     });
   });
 });
