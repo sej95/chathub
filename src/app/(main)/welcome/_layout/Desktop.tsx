@@ -6,7 +6,7 @@ import { ORG_NAME } from '@/const/branding';
 import { isCustomORG } from '@/const/version';
 import Follow from '@/features/Follow';
 
-const COPYRIGHT = `© ${new Date().getFullYear()} ${ORG_NAME}`;
+const COPYRIGHT = `©© ${new Date().getFullYear()} ${ORG_NAME}`;
 
 const DesktopLayout = ({ children }: PropsWithChildren) => {
   return (
