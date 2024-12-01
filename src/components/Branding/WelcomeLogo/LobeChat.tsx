@@ -27,4 +27,4 @@ const WelcomeLogo = memo<{ mobile?: boolean }>(({ mobile }) => {
   );
 });
 
-export default LogoSpline;
+export default WelcomeLogo;
