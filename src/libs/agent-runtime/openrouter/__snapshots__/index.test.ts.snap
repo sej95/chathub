@@ -1884,7 +1884,7 @@ _These are higher-throughput endpoints for [Toppy M 7B](/models/undi95/toppy-m-7
   {
     "description": "Depending on their size, subject, and complexity, your prompts will be sent to [Llama 3 70B Instruct](/models/meta-llama/llama-3-70b-instruct), [Claude 3.5 Sonnet (self-moderated)](/models/anthropic/claude-3.5-sonnet:beta) or [GPT-4o](/models/openai/gpt-4o).  To see which model was used, visit [Activity](/activity).
 
-A major redesign of this router is coming soon. Stay tuned on [Discord](https://discord.gg/fVyRaUDgxW) for updates.",
+A major redesign of this router is coming soon. Stay tuned on [Discord](https://discord.gg/mistralai) for updates.",
     "displayName": "Auto (best for prompt)",
     "enabled": true,
     "functionCall": false,
