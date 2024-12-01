@@ -34,7 +34,7 @@ export const generateMetadata = async (props: DiscoverPageProps) => {
   return {
     authors: [
       { name: author, url: homepage },
-      { name: 'LobeHub', url: 'https://github.com/lobehub' },
+      { name: 'sej95', url: 'https://github.com/sej95' },
       { name: 'ChatHub', url: 'https://github.com/sej95/chathub' },
     ],
     keywords: meta.tags,
