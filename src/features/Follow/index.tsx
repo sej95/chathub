@@ -48,12 +48,13 @@ const Follow = memo(() => {
           title={t('follow', { name: 'Discord' })}
         />
       </Link>
-/**      <Link href={MEDIDUM} rel="noreferrer" target={'_blank'}>
-   *     <ActionIcon
-    *      className={styles.icon}
-     *     icon={SiMedium as any}
-      *    title={t('follow', { name: 'medidum' })}
-       * />
+/**
+*      <Link href={MEDIDUM} rel="noreferrer" target={'_blank'}>
+*   *     <ActionIcon
+*    *      className={styles.icon}
+*     *     icon={SiMedium as any}
+*      *    title={t('follow', { name: 'medidum' })}
+*       * />
 *      </Link>
 */ 
  </Flexbox>
