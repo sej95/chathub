@@ -10,4 +10,4 @@ export const isServerMode = getServerDBConfig().NEXT_PUBLIC_ENABLED_SERVER_SERVI
 // @ts-ignore
 export const isCustomBranding = BRANDING_NAME !== 'LaboChat';
 // @ts-ignore
-export const isCustomORG = ORG_NAME !== 'sej95';
+export const isCustomORG = ORG_NAME !== 'LobeHub';
