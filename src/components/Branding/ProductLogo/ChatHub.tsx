@@ -67,7 +67,7 @@ const Divider = memo<SvgProps & DivProps & { size?: number }>(
   ),
 );
 
-const CustomLogo = memo<LobeChatProps>(({ extra, size = 32, className, style, type, ...rest }) => {
+const ChatHubLogo = memo<LobeChatProps>(({ extra, size = 32, className, style, type, ...rest }) => {
   const theme = useTheme();
   const { styles } = useStyles();
   let logoComponent: ReactNode;
@@ -122,4 +122,4 @@ const CustomLogo = memo<LobeChatProps>(({ extra, size = 32, className, style, ty
   );
 });
 
-export default CustomLogo;
+export default ChatHubLogo;
