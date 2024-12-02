@@ -11,5 +11,5 @@ export const ProductLogo = memo<LobeChatProps>((props) => {
     return <CustomLogo {...props} />;
   }
 
-  return <LobeHubLogo {...props} />;
+  return <LobeHub {...props} />;
 });
