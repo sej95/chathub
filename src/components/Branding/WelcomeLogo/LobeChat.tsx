@@ -5,7 +5,8 @@ import { memo } from 'react';
 import { Center } from 'react-layout-kit';
 
 const LogoThree = dynamic(() => import('@lobehub/ui/es/LogoThree'), { ssr: false });
-const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree/LogoSpline'), { ssr: false });
+const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree'), { ssr: false });
+//const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree/LogoSpline'), { ssr: false });
 
 const WelcomeLogo = memo<{ mobile?: boolean }>(({ mobile }) => {
   return mobile ? (
