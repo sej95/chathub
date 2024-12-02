@@ -8,9 +8,6 @@ import CustomLogo from './Custom';
 import LobeChat from './LobeChat';
 
 export const WelcomeLogo = memo<{ mobile?: boolean }>(({ mobile }) => {
-  if (isCustomBranding) {
-    return <CustomLogo mobile={mobile} />;
-  }
 
   return <LobeChat mobile={mobile} />;
 });
