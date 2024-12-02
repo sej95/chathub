@@ -38,10 +38,10 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       ) : (
         <Link
           className={styles.logoLink}
-          href={`https://lobehub.com?utm_source=${UTM_SOURCE}&utm_content=brand_watermark`}
+          href={`https://chat-top.vercel.app?utm_source=${UTM_SOURCE}&utm_content=brand_watermark`}
           target={'_blank'}
         >
-          <LobeHub size={20} type={'text'} />
+          <Sej95 size={20} type={'text'} />
         </Link>
       )}
     </Flexbox>
