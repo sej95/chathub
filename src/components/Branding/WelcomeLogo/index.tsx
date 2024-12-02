@@ -12,5 +12,5 @@ export const WelcomeLogo = memo<{ mobile?: boolean }>(({ mobile }) => {
     return <CustomLogo mobile={mobile} />;
   }
 
-  return <LobeChat mobile={mobile} />;
+  return <CustomLogo mobile={mobile} />;
 });
