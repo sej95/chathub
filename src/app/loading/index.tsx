@@ -4,7 +4,7 @@ import Redirect from './Redirect';
 const ScreenLoading = () => {
   return (
     <>
-//      <Client />
+      <Client />
       <Redirect />
     </>
   );
