@@ -1,4 +1,4 @@
-import { LobeHub, LobeChatProps } from '@lobehub/ui/brand';
+import { LogoMono, LobeChatProps } from '@lobehub/ui/brand';
 import { memo } from 'react';
 
 import { isCustomBranding } from '@/const/version';
@@ -10,5 +10,5 @@ export const ProductLogo = memo<LobeChatProps>((props) => {
     return <CustomLogo {...props} />;
   }
 
-  return <LobeHub {...props} />;
+  return <LogoMono {...props} />;
 });
