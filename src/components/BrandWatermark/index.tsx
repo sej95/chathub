@@ -36,7 +36,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       {isCustomORG ? (
         <span>{ORG_NAME}</span>
       ) : (
-          <LobeHub size={20} type={'text'} />
+       <span>Sej95</span>
       )}
     </Flexbox>
   );
