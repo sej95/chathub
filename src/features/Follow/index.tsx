@@ -1,6 +1,6 @@
 'use client';
 
-import { SiDiscord, SiGithub, SiMedium, SiX } from '@icons-pack/react-simple-icons';
+import { SiDiscord, SiGithub, SiWechat, SiMedium, SiX } from '@icons-pack/react-simple-icons';
 import { ActionIcon } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
@@ -51,7 +51,7 @@ const Follow = memo(() => {
       <Link href={MEDIDUM} rel="noreferrer" target={'_blank'}>
         <ActionIcon
           className={styles.icon}
-          icon={SiMedium as any}
+          icon={SiWechat as any}
           title={t('follow', { name: 'Medium' })}
         />
       </Link>
