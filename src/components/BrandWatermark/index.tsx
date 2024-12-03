@@ -1,6 +1,6 @@
 'use client';
 
-import { LobeChat } from '@sej95/ui/brand';
+import { LobeChat } from '@lobehub/ui/Logo/demos';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';
