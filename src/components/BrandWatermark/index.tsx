@@ -33,11 +33,6 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       {...rest}
     >
       <span>Powered by Sej95</span>
-      {isCustomORG ? (
-        <span>{ORG_NAME}</span>
-      ) : (
-       <span>LaboChat</span>
-      )}
     </Flexbox>
   );
 });
