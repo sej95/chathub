@@ -27,7 +27,7 @@ const useStyles = createStyles(({ css, token }) => ({
 }));
 
 const Nav = memo(() => {
-  const { t } = useTranslation('text');
+  const { t } = useTranslation('common');
   const { styles } = useStyles();
   const activeKey = useActiveTabKey();
   const router = useRouter();
