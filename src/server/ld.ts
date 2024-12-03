@@ -23,11 +23,11 @@ export const AUTHOR_LIST = {
     name: 'CanisMinor',
     url: 'https://github.com/arvinxx',
   },
-  lobehub: {
+  sej95: {
     avatar: 'https://avatars.githubusercontent.com/u/131470832?v=4',
     desc: 'Official Account',
-    name: 'LobeHub',
-    url: 'https://github.com/lobehub',
+    name: 'sej95',
+    url: 'https://github.com/sej95',
   },
 };
 
@@ -103,12 +103,12 @@ export class Ld {
         'url': urlJoin(OFFICIAL_SITE, '/icon-512x512.png'),
         'width': 512,
       },
-      'name': 'LobeHub',
+      'name': 'sej95',
       'sameAs': [
         X,
-        'https://github.com/lobehub',
-        'https://medium.com/@lobehub',
-        'https://www.youtube.com/@lobehub',
+        'https://github.com/sej95',
+        'https://medium.com/@sej95',
+        'https://www.youtube.com/@sej95',
       ],
       'url': OFFICIAL_SITE,
     };
@@ -120,8 +120,8 @@ export class Ld {
       '@type': 'Organization',
     };
     if (!ids || ids.length === 0) return defaultAuthor;
-    if (ids.length === 1 && ids[0] === 'lobehub') return defaultAuthor;
-    const personId = ids.find((id) => id !== 'lobehub');
+    if (ids.length === 1 && ids[0] === 'sej95') return defaultAuthor;
+    const personId = ids.find((id) => id !== 'sej95');
     if (!personId) return defaultAuthor;
     const person = (AUTHOR_LIST as any)?.[personId];
     if (!person) return defaultAuthor;
@@ -259,7 +259,7 @@ export class Ld {
         '@id': this.getId(fixedUrl, '#primaryimage'),
       },
       'inLanguage': locale,
-      'keywords': tags?.join(' ') || 'LobeHub LobeChat',
+      'keywords': tags?.join(' ') || 'Sej95 ChatHub',
       'mainEntityOfPage': fixedUrl,
       'name': title,
       'publisher': {
