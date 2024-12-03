@@ -32,17 +32,11 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       style={{ color: theme.colorTextDescription, fontSize: 12, ...style }}
       {...rest}
     >
-      <span>Powered by</span>
+      <span>Powered by Sej95</span>
       {isCustomORG ? (
         <span>{ORG_NAME}</span>
       ) : (
-        <Link
-          className={styles.logoLink}
-          href={`https://chat-top.vercel.app?utm_source=${UTM_SOURCE}&utm_content=brand_watermark`}
-          target={'_blank'}
-        >
           <LobeHub size={20} type={'text'} />
-        </Link>
       )}
     </Flexbox>
   );
