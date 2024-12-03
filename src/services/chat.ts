@@ -340,7 +340,7 @@ class ChatService {
       onMessageHandle: options?.onMessageHandle,
       signal,
       // use smoothing when enable client fetch
-      // https://github.com/lobehub/lobe-chat/issues/3800
+      // https://github.com/sej95/chathub/issues/3800
       smoothing: providerConfig?.smoothing || enableFetchOnClient,
     });
   };
@@ -565,7 +565,7 @@ class ChatService {
 
   /**
    * Reorder tool messages to ensure that tool messages are displayed in the correct order.
-   * see https://github.com/lobehub/lobe-chat/pull/3155
+   * see https://github.com/sej95/chathub/pull/3155
    */
   private reorderToolMessages = (messages: OpenAIChatMessage[]): OpenAIChatMessage[] => {
     // 1. 先收集所有 assistant 消息中的有效 tool_call_id
