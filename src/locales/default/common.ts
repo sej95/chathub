@@ -50,8 +50,8 @@ export default {
   follow: '在 {{name}} 上关注我们',
   footer: {
     action: {
-      feedback: '分享您宝贵的建议',
-      star: '在 GitHub 给添加星标',
+      feedback: '分享您宝贵建议',
+      star: '在GitHub添加星标',
     },
     and: '并',
     feedback: {
