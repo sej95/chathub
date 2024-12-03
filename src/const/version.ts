@@ -8,6 +8,6 @@ export const CURRENT_VERSION = pkg.version;
 export const isServerMode = getServerDBConfig().NEXT_PUBLIC_ENABLED_SERVER_SERVICE;
 
 // @ts-ignore
-export const isCustomBranding = BRANDING_NAME !== 'ChatHub';
+export const isCustomBranding = BRANDING_NAME !== 'LobeChat';
 // @ts-ignore
 export const isCustomORG = ORG_NAME !== 'sej95';
