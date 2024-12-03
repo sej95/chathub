@@ -146,7 +146,7 @@ export default {
       latencyTooltip: '服务商发送第一个 Token 的平均响应时间',
       maxOutput: '最大输出长度',
       maxOutputTooltip: '此端点可以生成的最大 Token 数',
-      officialTooltip: 'LobeHub 官方服务',
+      officialTooltip: 'Sej95 官方服务',
       output: '输出价格',
       outputTooltip: '每百万个 Token 的成本',
       streamCancellationTooltip: '此服务商支持流取消功能。',
