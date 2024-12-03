@@ -1,6 +1,6 @@
 'use client';
 
-import { LobeChat } from '@lobehub/ui/brand';
+import { LobeHub } from '@lobehub/ui/brand';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
 import { memo } from 'react';
@@ -41,7 +41,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
           href={`https://my6.top`}
           target={'_blank'}
         >
-          <LobeChat size={20} type={'text'} />
+          <LobeHub size={20} type={'text'} />
         </Link>
       )}
     </Flexbox>
