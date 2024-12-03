@@ -38,7 +38,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       ) : (
         <Link
           className={styles.logoLink}
-          href={`https://`}
+          href={`https://my6.top`}
           target={'_blank'}
         >
           <LobeChat size={20} type={'text'} />
