@@ -41,7 +41,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
           href={`https://www.ai.com?utm_source=${UTM_SOURCE}&utm_content=brand_watermark`}
           target={'_blank'}
         >
-          <LobeHub size={20} type={'text'} />
+          <LobeHub size={0} type={'text'} />
         </Link>
       )}
     </Flexbox>
