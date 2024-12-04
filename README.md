@@ -609,7 +609,7 @@ Contributions of all types are more than welcome; if you are interested in contr
   <table>
     <tr>
       <th colspan="2">
-        <br><img src="https://contrib.rocks/image?repo=lobehub/lobe-chat"><br><br>
+        <br><img src="https://contrib.rocks/image?repo=sej95/chathub"><br><br>
       </th>
     </tr>
     <tr>
