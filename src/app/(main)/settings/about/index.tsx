@@ -69,11 +69,11 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
                 label: t('mail.support'),
                 value: 'support',
               },
-//              {
-//                href: mailTo(EMAIL_BUSINESS),
-//                label: t('mail.business'),
-//                value: 'business',
-//              },
+              {
+                href: mailTo(EMAIL_BUSINESS),
+                label: t('mail.business'),
+                value: 'business',
+              },
             ]}
           />
           <Divider style={{ marginBlock: 0 }} />
