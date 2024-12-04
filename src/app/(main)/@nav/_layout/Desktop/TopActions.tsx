@@ -37,7 +37,7 @@ const TopActions = memo<TopActionProps>(({ tab, isPinned }) => {
           title={t('tab.chat')}
         />
       </Link>
-      {enableKnowledgeBase && (
+/*       {enableKnowledgeBase && (
         <Link aria-label={t('tab.files')} href={'/files'}>
           <ActionIcon
             active={tab === SidebarTabKey.Files}
@@ -47,7 +47,7 @@ const TopActions = memo<TopActionProps>(({ tab, isPinned }) => {
             title={t('tab.files')}
           />
         </Link>
-      )}
+      )} */
       {showMarket && (
         <Link aria-label={t('tab.discover')} href={'/discover'}>
           <ActionIcon
