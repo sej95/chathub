@@ -6,7 +6,8 @@
 
 An open-source, modern-design ChatGPT/LLMs UI/Framework.<br/>
 Supports speech-synthesis, multi-modal, and extensible ([function call][docs-functionc-call]) plugin system.<br/>
-One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Ollama chat application.
+One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Ollama chat application.<br/>
+This open source is a secondary development based on LobeChat; Thanks to the original author LobeHub for his open source project.<br/>
 
 **English** · [简体中文](./README.zh-CN.md) · [日本語](./README.ja-JP.md) · [Official Site][official-site] · [Changelog](./CHANGELOG.md) · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link]
 
@@ -609,7 +610,7 @@ Contributions of all types are more than welcome; if you are interested in contr
   <table>
     <tr>
       <th colspan="2">
-        <br><img src="https://contrib.rocks/image?repo=sej95/chathub"><br><br>
+        <br><img src="https://contrib.rocks/image?repo=lobehub/lobe-chat"><br><br>
       </th>
     </tr>
     <tr>
