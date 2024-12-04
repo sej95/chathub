@@ -51,7 +51,7 @@ const Follow = memo(() => {
       <Link href={MEDIDUM} rel="noreferrer" target={'_blank'}>
         <ActionIcon
           className={styles.icon}
-          icon={SiYoutube as any}
+          icon={SiMedium as any}
           title={t('follow', { name: 'Medium' })}
         />
       </Link>
