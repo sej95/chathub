@@ -38,16 +38,17 @@ const TopActions = memo<TopActionProps>(({ tab, isPinned }) => {
         />
       </Link>
 /*       {enableKnowledgeBase && (
-        <Link aria-label={t('tab.files')} href={'/files'}>
-          <ActionIcon
-            active={tab === SidebarTabKey.Files}
-            icon={FolderClosed}
-            placement={'right'}
-            size="large"
-            title={t('tab.files')}
-          />
-        </Link>
-      )} */
+*        <Link aria-label={t('tab.files')} href={'/files'}>
+*          <ActionIcon
+*            active={tab === SidebarTabKey.Files}
+*            icon={FolderClosed}
+*            placement={'right'}
+*            size="large"
+*            title={t('tab.files')}
+*          />
+*        </Link>
+*     )} 
+*/
       {showMarket && (
         <Link aria-label={t('tab.discover')} href={'/discover'}>
           <ActionIcon
