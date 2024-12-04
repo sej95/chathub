@@ -37,7 +37,7 @@ const Version = memo<{ mobile?: boolean }>(({ mobile }) => {
     >
       <Flexbox align={'center'} flex={'none'} gap={16} horizontal>
         <Link href={OFFICIAL_SITE} target={'_blank'}>
-          <Center className={styles.logo} height={64} width={64}>
+          <Center className={styles.logo} height={64} width={0}>
             <ProductLogo size={0} />
           </Center>
         </Link>
