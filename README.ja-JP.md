@@ -88,11 +88,11 @@
 私たちは、AIGCのためのモダンデザインコンポーネントとツールを提供することを目指すデザインエンジニアのグループです。
 ブートストラッピングアプローチを採用することで、開発者とユーザーに対してよりオープンで透明性のある、使いやすい製品エコシステムを提供することを目指しています。
 
-ユーザーやプロの開発者にとって、LobeHubはあなたのAIエージェントの遊び場となるでしょう。ChatHubは現在アクティブに開発中であり、遭遇した[問題][issues-link]についてのフィードバックを歓迎します。
+ユーザーやプロの開発者にとって、Sej95はあなたのAIエージェントの遊び場となるでしょう。ChatHubは現在アクティブに開発中であり、遭遇した[問題][issues-link]についてのフィードバックを歓迎します。
 
 | [![][vercel-shield-badge]][vercel-link]   | インストールや登録は不要です！私たちのウェブサイトにアクセスして、直接体験してください。                           |
 | :---------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| [![][discord-shield-badge]][discord-link] | 私たちのDiscordコミュニティに参加しましょう！ここでは、LobeHubの開発者や他の熱心なユーザーとつながることができます。 |
+| [![][discord-shield-badge]][discord-link] | 私たちのDiscordコミュニティに参加しましょう！ここでは、Sej95の開発者や他の熱心なユーザーとつながることができます。 |
 
 > \[!IMPORTANT]
 >
@@ -522,7 +522,7 @@ $ docker run -d -p 3210:3210 \
 | [@lobehub/ui][lobe-ui-link]       | [lobehub/lobe-ui][lobe-ui-github]       | AIGC ウェブアプリケーション構築専用のオープンソースUIコンポーネントライブラリ。                         | [![][lobe-ui-shield]][lobe-ui-link]       |
 | [@lobehub/icons][lobe-icons-link] | [lobehub/lobe-icons][lobe-icons-github] | 人気の AI/LLM モデルブランドの SVG ロゴとアイコン集。                                            | [![][lobe-icons-shield]][lobe-icons-link] |
 | [@lobehub/tts][lobe-tts-link]     | [lobehub/lobe-tts][lobe-tts-github]     | 高品質で信頼性の高い TTS/STT React Hooks ライブラリ                                                   | [![][lobe-tts-shield]][lobe-tts-link]     |
-| [@lobehub/lint][lobe-lint-link]   | [lobehub/lobe-lint][lobe-lint-github]   | LobeHub の ESlint、Stylelint、Commitlint、Prettier、Remark、Semantic Release の設定。 | [![][lobe-lint-shield]][lobe-lint-link]   |
+| [@lobehub/lint][lobe-lint-link]   | [lobehub/lobe-lint][lobe-lint-github]   | Sej95 の ESlint、Stylelint、Commitlint、Prettier、Remark、Semantic Release の設定。 | [![][lobe-lint-shield]][lobe-lint-link]   |
 
 <div align="right">
 
@@ -668,7 +668,7 @@ $ pnpm dev
 
 </details>
 
-Copyright © 2024 [LobeHub][profile-link]. <br />
+Copyright © 2024 [sej95][profile-link]. <br />
 This project is [Apache 2.0](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
@@ -798,8 +798,8 @@ This project is [Apache 2.0](./LICENSE) licensed.
 [share-whatsapp-shield]: https://img.shields.io/badge/-share%20on%20whatsapp-black?labelColor=black&logo=whatsapp&logoColor=white&style=flat-square
 [share-x-link]: https://x.com/intent/tweet?hashtags=chatbot%2CchatGPT%2CopenAI&text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20ChatHub%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
 [share-x-shield]: https://img.shields.io/badge/-share%20on%20x-black?labelColor=black&logo=x&logoColor=white&style=flat-square
-[sponsor-link]: https://opencollective.com/lobehub 'Become ❤️ LobeHub Sponsor'
-[sponsor-shield]: https://img.shields.io/badge/-Sponsor%20LobeHub-f04f88?logo=opencollective&logoColor=white&style=flat-square
+[sponsor-link]: https://opencollective.com/lobehub 'Become ❤️ Sej95 Sponsor'
+[sponsor-shield]: https://img.shields.io/badge/-Sponsor%20Sej95-f04f88?logo=opencollective&logoColor=white&style=flat-square
 [submit-agents-link]: https://github.com/sej95/chathub-agents
 [submit-agents-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [submit-plugin-link]: https://github.com/sej95/chathub-plugins

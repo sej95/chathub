@@ -23,7 +23,7 @@
     "url": "https://github.com/sej95/chathub.git"
   },
   "license": "MIT",
-  "author": "LobeHub <i@lobehub.com>",
+  "author": "sej95 <jn9502@gmail.com>",
   "sideEffects": false,
   "scripts": {
     "build": "next build",
