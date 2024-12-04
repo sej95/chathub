@@ -47,7 +47,7 @@ const ShareModal = memo<ModalProps>(({ onCancel, open }) => {
       maxHeight={false}
       onCancel={onCancel}
       open={open}
-      title={t('share', { ns: 'common' })}
+      title={t('share', { ns: 'text' })}
       width={1440}
     >
       <Flexbox gap={isMobile ? 8 : 24}>
