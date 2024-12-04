@@ -10,8 +10,8 @@ import { INBOX_SESSION_ID } from './session';
 export const UTM_SOURCE = 'chat_preview';
 
 export const OFFICIAL_URL = 'https://lobechat.com/';
-export const OFFICIAL_PREVIEW_URL = 'https://chat-preview.lobehub.com/';
-export const OFFICIAL_SITE = 'https://lobehub.com/';
+export const OFFICIAL_PREVIEW_URL = 'https://chat-top.vercel.app/';
+export const OFFICIAL_SITE = 'https://my6.top/';
 
 export const OG_URL = '/og/cover.png?v=1';
 
@@ -41,7 +41,7 @@ export const DISCORD = 'https://discord.gg/mistralai';
 export const PRIVACY_URL = urlJoin(OFFICIAL_SITE, '/privacy');
 export const TERMS_URL = urlJoin(OFFICIAL_SITE, '/terms');
 
-export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
+export const PLUGINS_INDEX_URL = 'https://chat-top.vercel.app';
 
 export const MORE_MODEL_PROVIDER_REQUEST_URL =
   'https://github.com/sej95/chathub/discussions/1284';
@@ -61,15 +61,15 @@ export const SESSION_CHAT_URL = (id: string = INBOX_SESSION_ID, mobile?: boolean
 export const imageUrl = (filename: string) => withBasePath(`/images/${filename}`);
 
 export const LOBE_URL_IMPORT_NAME = 'settings';
-export const EMAIL_SUPPORT = 'support@lobehub.com';
-export const EMAIL_BUSINESS = 'hello@lobehub.com';
+export const EMAIL_SUPPORT = 'support@my6.top';
+export const EMAIL_BUSINESS = 'hello@my6.top';
 
-export const MEDIDUM = 'https://medium.com/@lobehub';
+export const MEDIDUM = 'https://medium.com/@chathub';
 export const X = 'https://x.com/my9502';
 export const RELEASES_URL = urlJoin(GITHUB, 'releases');
 
 export const mailTo = (email: string) => `mailto:${email}`;
 
 export const AES_GCM_URL = 'https://datatracker.ietf.org/doc/html/draft-ietf-avt-srtp-aes-gcm-01';
-export const BASE_PROVIDER_DOC_URL = 'https://lobehub.com/docs/usage/providers';
+export const BASE_PROVIDER_DOC_URL = 'https://my6.top/docs/usage/providers';
 export const SITEMAP_BASE_URL = isDev ? '/sitemap.xml/' : 'sitemap';
