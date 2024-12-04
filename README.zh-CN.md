@@ -120,10 +120,6 @@ ChatHub 支持文件上传与知识库功能，你可以上传文件、图片、
 
 <https://github.com/user-attachments/assets/faa8cf67-e743-4590-8bf6-ebf6ccc34175>
 
-> \[!TIP]
->
-> 查阅 [📘 ChatHub 知识库上线 —— 此刻起，跬步千里](https://lobehub.com/zh/blog/knowledge-base) 了解详情。
-
 <div align="right">
 
 [![][back-to-top]](#readme-top)
@@ -299,7 +295,7 @@ ChatHub 的插件生态系统是其核心功能的重要扩展，它极大地增
 ChatHub 支持同时使用服务端数据库和本地数据库。根据您的需求，您可以选择合适的部署方案：
 
 - 本地数据库：适合希望对数据有更多掌控感和隐私保护的用户。ChatHub 采用了 CRDT (Conflict-Free Replicated Data Type) 技术，实现了多端同步功能。这是一项实验性功能，旨在提供无缝的数据同步体验。
-- 服务端数据库：适合希望更便捷使用体验的用户。ChatHub 支持 PostgreSQL 作为服务端数据库。关于如何配置服务端数据库的详细文档，请前往 [配置服务端数据库](https://lobehub.com/zh/docs/self-hosting/advanced/server-database)。
+- 服务端数据库：适合希望更便捷使用体验的用户。ChatHub 支持 PostgreSQL 作为服务端数据库。
 
 无论您选择哪种数据库，ChatHub 都能为您提供卓越的用户体验。
 
@@ -472,7 +468,7 @@ $ docker run -d -p 3210:3210 \
   -e OPENAI_API_KEY=sk-xxxx \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  sej95/chathub
 ```
 
 > \[!TIP]
@@ -485,7 +481,7 @@ $ docker run -d -p 3210:3210 \
   -e OPENAI_PROXY_URL=https://api-proxy.com/v1 \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  sej95/chathub
 ```
 
 > \[!NOTE]
@@ -674,10 +670,10 @@ $ pnpm run dev
 
 每一分支持都珍贵无比，汇聚成我们支持的璀璨银河！你就像一颗划破夜空的流星，瞬间点亮我们前行的道路。感谢你对我们的信任 —— 你的支持笔就像星辰导航，一次又一次地为项目指明前进的光芒。
 
-<a href="https://opencollective.com/lobehub" target="_blank">
+<a href="https://opencollective.com/sej95" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/lobehub/.github/blob/main/static/sponsor-dark.png?raw=true">
-    <img  src="https://github.com/lobehub/.github/blob/main/static/sponsor-light.png?raw=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sej95/.github/blob/main/static/sponsor-dark.png?raw=true">
+    <img  src="https://github.com/sej95/.github/blob/main/static/sponsor-light.png?raw=true">
   </picture>
 </a>
 

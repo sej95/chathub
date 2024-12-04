@@ -119,10 +119,6 @@ ChatHub supports file upload and knowledge base functionality. You can upload va
 
 <https://github.com/user-attachments/assets/faa8cf67-e743-4590-8bf6-ebf6ccc34175>
 
-> \[!TIP]
->
-> Learn more on [📘 ChatHub Knowledge Base Launch — From Now On, Every Step Counts](https://lobehub.com/blog/knowledge-base)
-
 <div align="right">
 
 [![][back-to-top]](#readme-top)
@@ -309,7 +305,7 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 ChatHub supports the use of both server-side and local databases. Depending on your needs, you can choose the appropriate deployment solution:
 
 - **Local database**: suitable for users who want more control over their data and privacy protection. ChatHub uses CRDT (Conflict-Free Replicated Data Type) technology to achieve multi-device synchronization. This is an experimental feature aimed at providing a seamless data synchronization experience.
-- **Server-side database**: suitable for users who want a more convenient user experience. ChatHub supports PostgreSQL as a server-side database. For detailed documentation on how to configure the server-side database, please visit [Configure Server-side Database](https://lobehub.com/docs/self-hosting/advanced/server-database).
+- **Server-side database**: suitable for users who want a more convenient user experience. ChatHub supports PostgreSQL as a server-side database. 
 
 Regardless of which database you choose, ChatHub can provide you with an excellent user experience.
 
@@ -489,7 +485,7 @@ $ docker run -d -p 3210:3210 \
   -e OPENAI_API_KEY=sk-xxxx \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  sej95/chathub
 ```
 
 > \[!TIP]
@@ -502,7 +498,7 @@ $ docker run -d -p 3210:3210 \
   -e OPENAI_PROXY_URL=https://api-proxy.com/v1 \
   -e ACCESS_CODE=lobe66 \
   --name lobe-chat \
-  lobehub/lobe-chat
+  sej95/chathub
 ```
 
 > \[!NOTE]
@@ -651,10 +647,10 @@ Contributions of all types are more than welcome; if you are interested in contr
 
 Every bit counts and your one-time donation sparkles in our galaxy of support! You're a shooting star, making a swift and bright impact on our journey. Thank you for believing in us – your generosity guides us toward our mission, one brilliant flash at a time.
 
-<a href="https://opencollective.com/lobehub" target="_blank">
+<a href="https://opencollective.com/sej95" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/lobehub/.github/blob/main/static/sponsor-dark.png?raw=true">
-    <img  src="https://github.com/lobehub/.github/blob/main/static/sponsor-light.png?raw=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sej95/.github/blob/main/static/sponsor-dark.png?raw=true">
+    <img  src="https://github.com/sej95/.github/blob/main/static/sponsor-light.png?raw=true">
   </picture>
 </a>
 
