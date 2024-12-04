@@ -600,7 +600,6 @@ Contributions of all types are more than welcome; if you are interested in contr
 >
 > Help us make ChatHub better. Welcome to provide product design feedback, user experience discussions directly to us.
 >
-> **Principal Maintainers:** [@arvinxx](https://github.com/arvinxx) [@canisminor1990](https://github.com/canisminor1990)
 
 [![][pr-welcome-shield]][pr-welcome-link]
 [![][submit-agents-shield]][submit-agents-link]
@@ -610,7 +609,7 @@ Contributions of all types are more than welcome; if you are interested in contr
   <table>
     <tr>
       <th colspan="2">
-        <br><img src="https://contrib.rocks/image?repo=lobehub/lobe-chat"><br><br>
+        <br><img src="https://contrib.rocks/image?repo=sej95/chathub"><br><br>
       </th>
     </tr>
     <tr>

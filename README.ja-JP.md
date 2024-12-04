@@ -586,7 +586,6 @@ $ pnpm dev
 >
 > ChatHub の改善にご協力ください。製品設計のフィードバックやユーザー体験に関するディスカッションを直接お寄せください。
 >
-> **プリンシパルメンテナー:** [@arvinxx](https://github.com/arvinxx) [@canisminor1990](https://github.com/canisminor1990)
 
 [![][pr-welcome-shield]][pr-welcome-link]
 [![][submit-agents-shield]][submit-agents-link]
@@ -596,7 +595,7 @@ $ pnpm dev
   <table>
     <tr>
       <th colspan="2">
-        <br><img src="https://contrib.rocks/image?repo=lobehub/lobe-chat"><br><br>
+        <br><img src="https://contrib.rocks/image?repo=sej95/chathub"><br><br>
       </th>
     </tr>
     <tr>

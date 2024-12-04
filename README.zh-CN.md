@@ -622,7 +622,6 @@ $ pnpm run dev
 > 我们希望创建一个技术分享型社区，一个可以促进知识共享、想法交流，激发彼此鼓励和协作的环境。
 > 同时欢迎联系我们提供产品功能和使用体验反馈，帮助我们将 ChatHub 建设得更好。
 >
-> **组织维护者:** [@arvinxx](https://github.com/arvinxx) [@canisminor1990](https://github.com/canisminor1990)
 
 [![][pr-welcome-shield]][pr-welcome-link]
 [![][submit-agents-shield]][submit-agents-link]
@@ -632,7 +631,7 @@ $ pnpm run dev
   <table>
     <tr>
       <th colspan="2">
-        <br><img src="https://contrib.rocks/image?repo=lobehub/lobe-chat"><br><br>
+        <br><img src="https://contrib.rocks/image?repo=sej95/chathub"><br><br>
       </th>
     </tr>
     <tr>
