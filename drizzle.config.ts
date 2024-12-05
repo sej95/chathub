@@ -25,5 +25,5 @@ export default {
   out: './src/database/server/migrations',
 
   schema: './src/database/server/schemas/lobechat',
-  strict: true,
+  strict: false,
 } satisfies Config;
