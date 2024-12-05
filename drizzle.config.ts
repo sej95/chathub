@@ -25,5 +25,5 @@ export default {
   out: './src/database/server/migrations',
 
   schema: './src/database/server/schemas/lobechat',
-  strict: ture,
+  strict: true,
 } satisfies Config;
