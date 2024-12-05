@@ -13,7 +13,7 @@ export const createDevtools =
       const url = new URL(window.location.href);
       const debug = url.searchParams.get('debug');
       if (debug?.includes(name)) {
-        showDevtools = false;
+        showDevtools = true;
       }
     }
 
