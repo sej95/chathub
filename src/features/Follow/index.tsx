@@ -1,6 +1,6 @@
 'use client';
 
-import { SiDiscord, SiGithub, SiMedium, SiX, } from '@icons-pack/react-simple-icons';
+import { SiDiscord, SiGithub, SiMedium, SiX, SiReact } from '@icons-pack/react-simple-icons';
 import { ActionIcon } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';
