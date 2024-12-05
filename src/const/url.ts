@@ -9,7 +9,7 @@ import { INBOX_SESSION_ID } from './session';
 
 export const UTM_SOURCE = 'chat_preview';
 
-export const OFFICIAL_URL = 'https://lobechat.com/';
+export const OFFICIAL_URL = 'https://my6.top/';
 export const OFFICIAL_PREVIEW_URL = 'https://chat-top.vercel.app/';
 export const OFFICIAL_SITE = 'https://my6.top/';
 
